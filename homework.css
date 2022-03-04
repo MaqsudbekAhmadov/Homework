@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.PetShop{
+    position: relative;
+    width: 1440px;
+    height: 5465px;
+    background: #FFFAF5;
+}
+
+.navigation{
+    position: absolute;
+    width: 1112px;
+    height: 104px;
+    left: 168px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.text_nav{
+    font-size: 24px;
+    line-height: 32px;
+    padding-left: 18.77px;
+    color: #42766C;
+}
+
+.collection{
+    margin-left: 417px;
+    display: flex;
+    color: #5A5A5A;
+}
+
+.collection > li {
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.navigation > button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    position: static;
+    width: 124px;
+    height: 44px;
+    left: 20px;
+    top: 29px;
+    background: #F87661;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 25px;
+}
+
+.banner{
+    position: absolute;
+    width: 1440px;
+    height: 522px;
+    left: 0px;
+    top: 104px;
+}
+
+.banner_orta{
+    width: 1080px;
+    height: 522px;
+    margin-left: 180px;
+}
+
+.tittle_itemban{
+    position: static;
+    width: 418px;
+    height: 128px;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: -0.01em;
+    color: #333333;
+    flex-grow: 0;
+    padding: 129px 0px;
+}
+
+.title_key{
+    position: static;
+    width: 454px;
+    height: 48px;
+    left: 0px;
+    top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    color: #828282;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.banner_orta > button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    position: static;
+    width: 124px;
+    height: 44px;
+    left: 20px;
+    top: 29px;
+    background: #F87661;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.banner_orta > img{
+    position: absolute;
+    margin: 0px 500px;
+    bottom: 29px;
+}
+
+.supbanner{
+    position: absolute;
+    width: 1440px;
+    height: 324px;
+    margin-top: 626px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.union{
+    width: 1080px;
+    height: 196px;
+    background: linear-gradient(180deg, #FF9685 0%, #F87661 100%);
+    border-radius: 14px;
+}
+
+.Services{
+    position: absolute;
+    width: 1440px;
+    height: 606px;
+    margin-top: 950px;
+
+}
+
+.h1_1{
+    position: static;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #333333;
+    padding: 74px 570px;
+}
+
+.Services_p{
+    position: static;
+    width: 517px;
+    height: 48px;
+    left: 0px;
+    top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.011em;
+    color: #828282;
+    margin: 0px 462px;
+}
+
+.img_1{
+    margin-left: 80px;
+    margin-top: 38px;
+}
+
+.suppanner{
+    position: absolute;
+    width: 1440px;
+    height: 418px;
+
+    margin-top: 1556px;
+    text-align: center;
+}
+
+.suppanner>p{
+
+
+    font-size: 16px;
+
+
+
+    color: #828282;
+    padding-top: 123px;
+
+}
+
+
+.suppanner>h1{
+    padding-top: 20px;
+}
+
+.div9{
+    position: absolute;
+    width: 1440px;
+    height: 1148px;
+
+    margin-top: 1974px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div10{
+    position: relative;
+    width: 1080px;
+    height: 534px;
+    background: #D9E4E2;
+    border-radius: 50px;
+}
+
+.div10>h1{
+    
+    padding-top: 76px;
+    padding-left: 94px;
+    color: #333333;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.belive{
+    position: absolute;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 94px;
+    padding-top: 20px;
+    color: #828282;
+}
+
+.over{
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #5A5A5A;
+    padding-left: 94px;
+    padding-top: 120px;
+}
+
+.div11{
+    position: absolute;
+    width: 279px;
+    height: 446px;
+    background: #F87661;
+    border-radius: 138px;
+    bottom: 50px;
+    left: 707px;
+    
+}
+
+.div12{
+    position: absolute;
+    width: 1440px;
+    height: 470px;
+    background: linear-gradient(180deg, #5D9388 0%, #42766C 100%);
+    margin-top: 2850px;
+    background-image: url("./Union\ \(1\).svg");
+}
